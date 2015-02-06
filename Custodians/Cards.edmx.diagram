@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85f93f48159a442d81c315e118470b0e" Name="Diagram1">
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_Membership" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_Profile" Width="1.5" PointX="7.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_Roles" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.aspnet_Users" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Affiliates" Width="1.5" PointX="5.25" PointY="97.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_AnonymousUsers" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Assemblies" Width="1.5" PointX="8" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Authentication" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Banners" Width="1.5" PointX="5.25" PointY="101.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Classification" Width="1.5" PointX="6" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_DesktopModules" Width="1.5" PointX="0.75" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_EventLog" Width="1.5" PointX="10.25" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_EventLogConfig" Width="1.5" PointX="8" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_EventLogTypes" Width="1.5" PointX="5.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_EventQueue" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Files" Width="1.5" PointX="5.25" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_FolderPermission" Width="1.5" PointX="5.25" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Folders" Width="1.5" PointX="3" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_HostSettings" Width="1.5" PointX="2.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_HtmlText" Width="1.5" PointX="8.25" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Links" Width="1.5" PointX="8.25" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Lists" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ModuleControls" Width="1.5" PointX="6" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ModuleDefinitions" Width="1.5" PointX="3.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ModulePermission" Width="1.5" PointX="11.25" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Modules" Width="1.5" PointX="6" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ModuleSettings" Width="1.5" PointX="8.25" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Packages" Width="1.5" PointX="5.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_PackageTypes" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Permission" Width="1.5" PointX="3" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_PortalAlias" Width="1.5" PointX="3" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_PortalDesktopModules" Width="1.5" PointX="3" PointY="48.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Portals" Width="1.5" PointX="0.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Profile" Width="1.5" PointX="3" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ProfilePropertyDefinition" Width="1.5" PointX="3" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_RoleGroups" Width="1.5" PointX="3" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Roles" Width="1.5" PointX="8.25" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Schedule" Width="1.5" PointX="21.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ScheduleHistory" Width="1.5" PointX="24" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_ScheduleItemSettings" Width="1.5" PointX="24" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchCommonWords" Width="1.5" PointX="23.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchIndexer" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchItem" Width="1.5" PointX="8.25" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchItemWord" Width="1.5" PointX="10.5" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchItemWordPosition" Width="1.5" PointX="12.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SearchWord" Width="1.5" PointX="8.25" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SiteLog" Width="1.5" PointX="3" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Skins" Width="1.5" PointX="3" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_SystemMessages" Width="1.5" PointX="3" PointY="74.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_TabModules" Width="1.5" PointX="11.25" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_TabModuleSettings" Width="1.5" PointX="13.5" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_TabPermission" Width="1.5" PointX="5.25" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Tabs" Width="1.5" PointX="3" PointY="77.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UrlLog" Width="1.5" PointX="5.25" PointY="87.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Urls" Width="1.5" PointX="3" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UrlTracking" Width="1.5" PointX="3" PointY="87.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UserAuthentication" Width="1.5" PointX="5.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UserPortals" Width="1.5" PointX="6" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UserProfile" Width="1.5" PointX="5.25" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UserRoles" Width="1.5" PointX="10.5" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Users" Width="1.5" PointX="3" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_UsersOnline" Width="1.5" PointX="8" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_VendorClassification" Width="1.5" PointX="8.25" PointY="100.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Vendors" Width="1.5" PointX="3" PointY="98.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_Version" Width="1.5" PointX="23.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Banks" Width="1.5" PointX="10" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_BranchStaff" Width="1.5" PointX="16.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_BusinessOffices" Width="1.5" PointX="14.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_ATMCustodians" Width="1.5" PointX="23.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Disputes_Logs" Width="1.5" PointX="24" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Disputes_NEW" Width="1.5" PointX="21.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_JobRuns" Width="1.5" PointX="10.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Jobs" Width="1.5" PointX="8" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_JobTypes" Width="1.5" PointX="7.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Schedules" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Terminals" Width="1.5" PointX="9.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Transactions" Width="1.5" PointX="11.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques" Width="1.5" PointX="18.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_CautionReasons" Width="1.5" PointX="21" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_ClearingSessions" Width="1.5" PointX="21.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_CutOffTimes" Width="1.5" PointX="16.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_DeliveryNotes" Width="1.5" PointX="19.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Details" Width="1.5" PointX="14.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_FinacleReportFiles" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Logs" Width="1.5" PointX="21" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_PredefinedRejectReasons" Width="1.5" PointX="25.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_RejectionReasons" Width="1.5" PointX="21" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_RejectReasons" Width="1.5" PointX="16.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_ReplacementScans" Width="1.5" PointX="25.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_ReturnReasons" Width="1.5" PointX="16.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Scans" Width="1.5" PointX="12.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_ScansHistories" Width="1.5" PointX="14.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_ScansWorkflows" Width="1.5" PointX="14.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Schedules" Width="1.5" PointX="16.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_SupportingDocuments" Width="1.5" PointX="16.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Tags" Width="1.5" PointX="14.5" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_TagsDefinitions" Width="1.5" PointX="25.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Clusters" Width="1.5" PointX="12.25" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentAttachments" Width="1.5" PointX="19" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentLog" Width="1.5" PointX="22" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentQueues" Width="1.5" PointX="19" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Documents" Width="1.5" PointX="16.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentTypes" Width="1.5" PointX="24.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_GroupHeads" Width="1.5" PointX="12.25" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_HeadsOfOperations" Width="1.5" PointX="10" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Holidays" Width="1.5" PointX="26.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_RegionalBanks" Width="1.5" PointX="7.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_RejectionReasons" Width="1.5" PointX="19" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_ReportRuns" Width="1.5" PointX="26.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_TeamClusters" Width="1.5" PointX="14.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Teams" Width="1.5" PointX="12.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_TeamUsers" Width="1.5" PointX="19.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.sysdiagram" Width="1.5" PointX="13.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Gasper" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.BusinessOfficesView" Width="1.5" PointX="26.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_FolderPermissions" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_Lists" Width="1.5" PointX="27.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_ModulePermissions" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_Modules" Width="1.5" PointX="28.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_Portals" Width="1.5" PointX="18.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_TabPermissions" Width="1.5" PointX="20.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_Tabs" Width="1.5" PointX="28.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.DNN_vw_Users" Width="1.5" PointX="22.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_BCMs" Width="1.5" PointX="29.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_BOMs" Width="1.5" PointX="12.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Disputes" Width="1.5" PointX="28.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Disputes_IDV" Width="1.5" PointX="30.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cards_Report" Width="1.5" PointX="30.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_NACS_OUT_Cheques" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_OUT_CBN_Cheques" Width="1.5" PointX="30.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Queues" Width="1.5" PointX="30.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Cheques_Transactions" Width="1.5" PointX="30.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_CSOs" Width="1.5" PointX="24.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Documents_View" Width="1.5" PointX="30.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentsOutsideTAT" Width="1.5" PointX="31.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentsReceived" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_DocumentsWithinTAT" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_Teams_View" Width="1.5" PointX="32.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_TeamView" Width="1.5" PointX="32.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_TransactionActivityReportView" Width="1.5" PointX="32.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.GSS_UserView" Width="1.5" PointX="32.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.UserView" Width="1.5" PointX="20.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_Applications" Width="1.5" PointX="33.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="32.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_Profiles" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_Roles" Width="1.5" PointX="34.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_Users" Width="1.5" PointX="34.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gssdb_cardsModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="10.75" PointY="35.75" IsExpanded="true" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__aspnet_Me__Appli__52793849" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__aspnet_Ro__Appli__70FDBF69" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__aspnet_Us__Appli__4242D080" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__aspnet_Me__UserI__536D5C82" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__aspnet_Pr__UserI__6774552F" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Affiliates_DNN_Vendors" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_AnonymousUsers_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_PackageAssemblies_PackageAssemblies" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Banner_DNN_Vendor" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Classification_DNN_Classification" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_VendorClassification_DNN_Classification" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModuleDefinitions_DNN_DesktopModules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_PortalDesktopModules_DNN_DesktopModules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_EventLog_DNN_EventLogConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_EventLog_DNN_EventLogTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_EventLogConfig_DNN_EventLogTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Files_DNN_Folders" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Files_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_FolderPermission_DNN_Folders" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_FolderPermission_DNN_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_FolderPermissionDNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Folders_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_HtmlText_DNN_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK__DNN_Links__Modul__0F4D3C5F" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModuleControls_DNN_ModuleDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Modules_DNN_ModuleDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModulePermission_DNN_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModulePermission_DNN_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModulePermissionDNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Modules_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ModuleSettings_DNN_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SearchItem_DNN_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabModules_DNN_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabPermission_DNN_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_PortalAlias_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_PortalDesktopModules_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Profile_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ProfilePropertyDefinition_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_RoleGroups_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Roles_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SiteLog_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Skins_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SystemMessages_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Tabs_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Urls_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UrlTracking_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserPortals_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UsersOnline_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Vendor_DNN_Portals" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Profile_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserProfile_DNN_ProfilePropertyDefinition" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Roles_DNN_RoleGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserRoles_DNN_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ScheduleHistory_DNN_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_ScheduleItemSettings_DNN_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SearchItemWord_DNN_SearchItem" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SearchItemWord_DNN_SearchWord" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_SearchItemWordPosition_DNN_SearchItemWord" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabModules_DNN_Tabs" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabModuleSettings_DNN_TabModules" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabPermission_DNN_Tabs" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_TabPermission_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_Tabs_DNN_Tabs" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UrlLog_DNN_UrlTracking" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserAuthentication_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserPortals_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserProfile_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UserRoles_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_UsersOnline_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_CSOs_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentAttachments_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentLog_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentQueues_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_GroupHeads_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_HeadsOfOperations_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_TeamUsers_DNN_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_DNN_VendorClassification_DNN_Vendors" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Banks_GSS_RegionalBanks" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Clusters_GSS_Banks" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_GroupHeads_GSS_Banks" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_CSOs_GSS_BusinessOffices" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_BusinessOffices_GSS_Clusters" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_CutOffTimes_GSS_BusinessOffices" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_DeliveryNotes_GSS_BusinessOffices" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_Schedules_GSS_BusinessOffices" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Documents_GSS_BusinessOffices" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cards_Disputes_Logs_GSS_Cards_Disputes" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cards_JobRuns_GSS_Cards_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cards_Jobs_GSS_Cards_Schedules1" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_CautionReasons_GSS_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_Logs_GSS_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_RejectionReasons_GSS_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_GSS_Cheques_Scans" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_RejectReasons_GSS_Cheques_ScansWorkflows" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_ReturnReasons_GSS_Cheques_ScansWorkflows" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_ScansHistories_GSS_Cheques_Scans" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_ScansWorkflows_GSS_Cheques_Scans" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_Tags_GSS_Cheques_Scans" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_Cheques_SupportingDocuments_GSS_Cheques_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_TeamClusters_GSS_Clusters" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentAttachments_GSS_Documents" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentLog_GSS_Documents" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_DocumentQueues_GSS_Documents" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_RejectionReasons_GSS_Documents" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_HeadsOfOperations_GSS_RegionalBanks" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_TeamClusters_GSS_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.FK_GSS_TeamUsers_GSS_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.GSS_Cheques_DeliveryNoteCheques" ManuallyRouted="false" />
+        <AssociationConnector Association="gssdb_cardsModel.GSS_Cheques_ScheduleCheques" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

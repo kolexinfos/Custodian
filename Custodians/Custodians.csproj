@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCC37433-8398-4F56-9418-CD0F0237C018}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Custodians</RootNamespace>
+    <AssemblyName>Custodians</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="aspnet_Applications.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Membership.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Profile.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Roles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_SchemaVersions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Users.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessOfficesView.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cards.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cards.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cards.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cards.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cards.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CustodianController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DNN_Affiliates.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_AnonymousUsers.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Assemblies.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Authentication.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Banners.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Classification.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_DesktopModules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_EventLog.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_EventLogConfig.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_EventLogTypes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_EventQueue.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Files.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_FolderPermission.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Folders.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_HostSettings.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_HtmlText.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Links.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Lists.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ModuleControls.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ModuleDefinitions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ModulePermission.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Modules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ModuleSettings.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Packages.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_PackageTypes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Permission.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_PortalAlias.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_PortalDesktopModules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Portals.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Profile.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ProfilePropertyDefinition.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_RoleGroups.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Roles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Schedule.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ScheduleHistory.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_ScheduleItemSettings.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchCommonWords.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchIndexer.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchItem.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchItemWord.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchItemWordPosition.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SearchWord.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SiteLog.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Skins.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_SystemMessages.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_TabModules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_TabModuleSettings.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_TabPermission.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Tabs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UrlLog.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Urls.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UrlTracking.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UserAuthentication.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UserPortals.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UserProfile.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UserRoles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Users.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_UsersOnline.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_VendorClassification.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Vendors.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_Version.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_FolderPermissions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_Lists.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_ModulePermissions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_Modules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_Portals.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_TabPermissions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_Tabs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DNN_vw_Users.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Banks.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_BCMs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_BOMs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_BranchStaff.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_BusinessOffices.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_ATMCustodians.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Disputes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Disputes_IDV.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Disputes_Logs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Disputes_NEW.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_JobRuns.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Jobs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_JobTypes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Report.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Schedules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Terminals.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cards_Transactions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_CautionReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_ClearingSessions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_CutOffTimes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_DeliveryNotes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Details.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_FinacleReportFiles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Logs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_NACS_OUT_Cheques.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_OUT_CBN_Cheques.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_PredefinedRejectReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Queues.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_RejectionReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_RejectReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_ReplacementScans.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_ReturnReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Scans.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_ScansHistories.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_ScansWorkflows.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Schedules.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_SupportingDocuments.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Tags.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_TagsDefinitions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Cheques_Transactions.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Clusters.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_CSOs.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentAttachments.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentLog.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentQueues.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Documents.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentsOutsideTAT.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentsReceived.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentsWithinTAT.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Documents_View.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_DocumentTypes.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Gasper.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_GroupHeads.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_HeadsOfOperations.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Holidays.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_RegionalBanks.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_RejectionReasons.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_ReportRuns.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_TeamClusters.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Teams.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_Teams_View.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_TeamUsers.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_TeamView.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_TransactionActivityReportView.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GSS_UserView.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Custodian.cs" />
+    <Compile Include="Models\Terminals.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserView.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Applications.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_MembershipUsers.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Profiles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Roles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_Users.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_aspnet_UsersInRoles.cs">
+      <DependentUpon>Cards.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="Cards.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Cards.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Cards.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Cards.edmx</DependentUpon>
+      <LastGenOutput>Cards.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Cards.edmx.diagram">
+      <DependentUpon>Cards.edmx</DependentUpon>
+    </Content>
+    <Content Include="Cards.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Cards.edmx</DependentUpon>
+      <LastGenOutput>Cards.cs</LastGenOutput>
+    </Content>
+    <None Include="Properties\PublishProfiles\yuze - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\yuze - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Custodian\Index.cshtml" />
+    <Content Include="Views\Custodian\Details.cshtml" />
+    <Content Include="Views\Custodian\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>48068</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48068/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
